@@ -27,8 +27,9 @@ Este proyecto incluye una librería de validadores comunes para formularios en F
 
 ## 📂 Archivos del proyecto
 
-- `lib/utils/textformfields_validations.dart` → Contiene la librería con todos los validadores.  
-- `lib/screens/main.dart` → Ejemplo de uso en un formulario de registro.  
+- `lib/utils/textformfields_validations.dart` → Contiene la librería con todos los validadores.
+- `lib/screens/validations_screen.dart` → Contiene la pantalla de validaciones.
+- `lib/main.dart` → Ejemplo de uso en un formulario de registro.  
 
 ---
 
