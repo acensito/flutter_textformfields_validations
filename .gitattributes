@@ -1,1 +1,43 @@
-*.dart linguist-vendored=true
+# ===============================
+# Contar solo Dart en GitHub
+# ===============================
+
+# Todos los archivos Dart se contabilizan como Dart
+*.dart linguist-language=Dart
+
+# ===============================
+# Ignorar todo lo demás
+# ===============================
+
+# Archivos C/C++
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.cxx linguist-vendored
+*.cc linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+
+# Archivos generados de Flutter/Dart
+*.g.dart linguist-generated
+*.pb.dart linguist-generated
+
+# Recursos y configuraciones
+*.json linguist-vendored
+*.yaml linguist-vendored
+*.yml linguist-vendored
+*.md linguist-vendored
+*.txt linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.gif linguist-vendored
+*.svg linguist-vendored
+*.ico linguist-vendored
+*.ttf linguist-vendored
+*.otf linguist-vendored
+*.jar linguist-vendored
+*.exe linguist-vendored
+*.bin linguist-vendored
